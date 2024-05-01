@@ -11,3 +11,7 @@ def hello_world():
 @app.route("/contact")
 def contact():
     return "<p>Hello, You are in contact page!</p>"
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
