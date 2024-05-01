@@ -9,3 +9,10 @@ authors = [
   { name = "Deepika", email = "dejain4@gmail.com" }
 ]
 description = "Workshop of python with giuthub actions"
+dependencies = [
+"flask",
+"pytest",
+"pytest-cov",
+"ruff",
+"pre-commit"
+]
